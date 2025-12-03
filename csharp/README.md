@@ -1,6 +1,6 @@
-# TTS ONNX Inference Examples
+# Eburon TTS C# Example
 
-This guide provides examples for running TTS inference using `ExampleONNX.cs`.
+This guide provides examples for running Eburon TTS inference using `ExampleONNX.cs`.
 
 ## 📰 Update News
 
@@ -110,7 +110,7 @@ dotnet build -c Release
 
 ### Run the compiled executable
 ```bash
-./bin/Release/net9.0/Supertonic
+./bin/Release/net9.0/EburonTts
 ```
 
 ## Project Structure
@@ -119,9 +119,8 @@ dotnet build -c Release
 csharp/
 ├── ExampleONNX.cs        # Main inference script
 ├── Helper.cs             # Helper functions and classes
-├── Supertonic.csproj     # Project configuration
+├── EburonTts.csproj      # Project configuration
 ├── README.md             # This file
 └── results/              # Output directory (created automatically)
 ```
-
 

@@ -2,7 +2,7 @@
 import PackageDescription
 
 let package = Package(
-    name: "Supertonic",
+    name: "EburonTTS",
     platforms: [
         .macOS(.v13)
     ],
@@ -19,4 +19,3 @@ let package = Package(
         )
     ]
 )
-

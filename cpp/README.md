@@ -1,4 +1,4 @@
-# Supertonic C++ Implementation
+# Eburon TTS C++ Implementation
 
 High-performance text-to-speech inference using ONNX Runtime.
 

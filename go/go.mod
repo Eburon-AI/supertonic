@@ -1,4 +1,4 @@
-module supertonic-tts
+module eburon-tts
 
 go 1.21
 

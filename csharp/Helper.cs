@@ -8,7 +8,7 @@ using System.Text.RegularExpressions;
 using Microsoft.ML.OnnxRuntime;
 using Microsoft.ML.OnnxRuntime.Tensors;
 
-namespace Supertonic
+namespace EburonTts
 {
     // ============================================================================
     // Configuration classes

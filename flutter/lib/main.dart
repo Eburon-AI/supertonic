@@ -5,16 +5,16 @@ import 'package:path_provider/path_provider.dart';
 import 'package:flutter_sdk/helper.dart';
 
 void main() {
-  runApp(const SupertonicApp());
+  runApp(const EburonTtsApp());
 }
 
-class SupertonicApp extends StatelessWidget {
-  const SupertonicApp({super.key});
+class EburonTtsApp extends StatelessWidget {
+  const EburonTtsApp({super.key});
 
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'Supertonic',
+      title: 'Eburon TTS',
       theme: ThemeData(
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         useMaterial3: true,
@@ -208,7 +208,7 @@ class _TTSPageState extends State<TTSPage> {
     return Scaffold(
       appBar: AppBar(
         backgroundColor: Theme.of(context).colorScheme.inversePrimary,
-        title: const Text('Supertonic'),
+        title: const Text('Eburon TTS'),
       ),
       body: Padding(
         padding: const EdgeInsets.all(16.0),

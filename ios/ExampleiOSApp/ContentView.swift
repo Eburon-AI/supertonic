@@ -12,7 +12,7 @@ struct ContentView: View {
                 Spacer()
 
                 VStack(spacing: 12) {
-                    Text("SupertonicTTS iOS Demo")
+                    Text("Eburon TTS iOS Demo")
                         .font(.title2.weight(.semibold))
                         .foregroundColor(.primary)
 

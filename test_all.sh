@@ -1,6 +1,6 @@
 #!/bin/bash
 
-# Supertonic - Test All Language Implementations
+# Eburon TTS - Test All Language Implementations
 # This script runs inference tests for all supported languages except web
 
 set -e  # Exit on error
@@ -9,7 +9,7 @@ SCRIPT_DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
 cd "$SCRIPT_DIR"
 
 echo "=================================="
-echo "Supertonic - Testing All Examples"
+echo "Eburon TTS - Testing All Examples"
 echo "=================================="
 echo ""
 
@@ -325,4 +325,3 @@ else
     echo -e "${GREEN}All tests passed! 🎉${NC}"
     exit 0
 fi
-

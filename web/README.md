@@ -1,6 +1,6 @@
-# Supertonic Web Example
+# Eburon TTS Web Example
 
-This example demonstrates how to use Supertonic in a web browser using ONNX Runtime Web.
+This example demonstrates how to use Eburon TTS in a web browser using ONNX Runtime Web.
 
 ## 📰 Update News
 

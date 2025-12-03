@@ -27,7 +27,7 @@ final class TTSService {
         let wavLenSample = min(Int(Double(sampleRate) * audioSeconds), wav.count)
         let wavOut = Array(wav[0..<wavLenSample])
 
-        let tmpURL = FileManager.default.temporaryDirectory.appendingPathComponent("supertonic_tts_\(UUID().uuidString).wav")
+        let tmpURL = FileManager.default.temporaryDirectory.appendingPathComponent("eburon_tts_\(UUID().uuidString).wav")
         try writeWavFile(tmpURL.path, wavOut, sampleRate)
 
         return tmpURL

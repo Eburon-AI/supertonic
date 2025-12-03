@@ -21,7 +21,7 @@ targets:
         type: folder
     settings:
       base:
-        PRODUCT_BUNDLE_IDENTIFIER: com.supertonic.ExampleiOSApp
+        PRODUCT_BUNDLE_IDENTIFIER: com.eburon.ExampleiOSApp
         SWIFT_VERSION: 5.9
         INFOPLIST_FILE: Info.plist
     dependencies:

@@ -1,5 +1,5 @@
 cmake_minimum_required(VERSION 3.15)
-project(Supertonic_CPP)
+project(Eburon_TTS_CPP)
 
 set(CMAKE_CXX_STANDARD 17)
 set(CMAKE_CXX_STANDARD_REQUIRED ON)
@@ -119,4 +119,3 @@ endif()
 install(TARGETS example_onnx DESTINATION bin)
 install(TARGETS tts_helper DESTINATION lib)
 install(FILES helper.h DESTINATION include)
-

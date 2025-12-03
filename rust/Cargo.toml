@@ -1,5 +1,5 @@
 [package]
-name = "supertonic-tts"
+name = "eburon-tts"
 version = "0.1.0"
 edition = "2021"
 
@@ -41,4 +41,3 @@ libc = "0.2"
 [[bin]]
 name = "example_onnx"
 path = "src/example_onnx.rs"
-

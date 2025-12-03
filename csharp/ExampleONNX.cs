@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.IO;
 using System.Linq;
 
-namespace Supertonic
+namespace EburonTts
 {
     class Program
     {
@@ -132,4 +132,3 @@ namespace Supertonic
         }
     }
 }
-

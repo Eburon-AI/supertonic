@@ -1,13 +1,13 @@
-# Supertonic iOS Example App
+# Eburon TTS iOS Example App
 
-A minimal iOS demo that runs Supertonic (ONNX Runtime) on-device. The app shows:
+A minimal iOS demo that runs Eburon TTS (ONNX Runtime) on-device. The app shows:
 - Multiline text input
 - NFE (denoising steps) slider
 - Voice toggle (M/F)
 - Generate & Play buttons
 - RTF display (Elapsed / Audio seconds)
 
-All ONNX models/configs are reused from `Supertonic/assets/onnx`, and voice style JSON files from `Supertonic/assets/voice_styles`.
+All ONNX models/configs are reused from `../assets/onnx`, and voice style JSON files from `../assets/voice_styles`.
 
 ## Prerequisites
 - macOS 13+, Xcode 15+
